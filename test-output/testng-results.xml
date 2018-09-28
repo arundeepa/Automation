@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Data:username]]>
+    </line>
+    <line>
+      <![CDATA[Row:1]]>
+    </line>
+    <line>
+      <![CDATA[Test:testAis PASSED]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52500" started-at="2018-09-27T13:43:37Z" finished-at="2018-09-27T13:44:29Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52500" started-at="2018-09-27T13:43:37Z" finished-at="2018-09-27T13:44:29Z">
+      <class name="Script.TestDemo">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:Script.TestDemo@4dfa3a9d]" name="openApp" is-config="true" duration-ms="46768" started-at="2018-09-27T13:43:37Z" finished-at="2018-09-27T13:44:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testA()[pri:0, instance:Script.TestDemo@4dfa3a9d]" name="testA" duration-ms="5044" started-at="2018-09-27T13:44:24Z" finished-at="2018-09-27T13:44:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Data:username]]>
+            </line>
+            <line>
+              <![CDATA[Row:1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Script.TestDemo@4dfa3a9d]" name="closeApp" is-config="true" duration-ms="656" started-at="2018-09-27T13:44:29Z" finished-at="2018-09-27T13:44:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testA status=SUCCESS method=TestDemo.testA()[pri:0, instance:Script.TestDemo@4dfa3a9d] output=Data:username]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test:testAis PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Script.TestDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
